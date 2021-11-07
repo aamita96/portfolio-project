@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio Project</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js" defer></script>
+
+</head>
+
+<body>
+	<main class="container">
+		<ul class="menu">
+			<li class="menu-item" data-id="home">
+				<i class="fas fa-home"></i>
+			</li>
+			<li class="menu-item" data-id="work">
+				<i class="fas fa-folder"></i>
+			</li>
+			<li class="menu-item" data-id="contact">
+				<i class="fas fa-envelope"></i>
+			</li>
+			<li class="menu-item" data-id="social">
+				<i class="fab fa-twitter"></i>
+			</li>
+		</ul>
+
+		<section class="bubble home" id="home">
+			<div>
+				<h2>John Doe</h2>
+				<p>Senior Software Developer</p>
+			</div>
+			<img src="assets/images/me.jpg" alt="myself">
+		</section>
+
+		<section class="bubble work" id="work">
+			<h3>Work</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eius aspernatur nesciunt nam nisi alias.
+				Ipsum placeat debitis animi.</p>
+			<div class="gallery">
+				<img src="assets/images/pic01.jpg" alt="picture1">
+				<img src="assets/images/pic02.jpg" alt="picture2">
+				<img src="assets/images/pic03.jpg" alt="picture3">
+				<img src="assets/images/pic04.jpg" alt="picture4">
+				<img src="assets/images/pic05.jpg" alt="picture5">
+				<img src="assets/images/pic06.jpg" alt="picture6">
+				<img src="assets/images/pic07.jpg" alt="picture7">
+				<img src="assets/images/pic08.jpg" alt="picture8">
+				<img src="assets/images/pic09.jpg" alt="picture9">
+				<img src="assets/images/pic10.jpg" alt="picture10">
+				<img src="assets/images/pic11.jpg" alt="picture11">
+				<img src="assets/images/pic12.jpg" alt="picture12">
+			</div>
+		</section>
+
+		<section class="bubble contact" id="contact">
+			<h3>Contact Me</h3>
+			<form>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Name">
+					<input type="email" class="form-control" placeholder="Email">
+				</div>
+
+				<input type="text" class="form-control" placeholder="Subject">
+
+				<textarea name="message" id="" cols="30" rows="10" class="form-area form-control" placeholder="Message">
+				</textarea>
+
+				<button type="submit" class="button">Send Message</button>
+			</form>
+		</section>
+
+		<section class="bubble social" id="social">
+			<h3>Social</h3>
+		</section>
+
+		<footer>
+			&copy; Untitled | Design: HTML5 | Demo Images: Unsplash
+		</footer>
+	</main>
+</body>
+
+</html>
